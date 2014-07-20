@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CyberLawsKnowledgeCenter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="course_home">Course Home</string>
+    <string name="title_activity_our_knowledge_centre">Our Knowledge Centre</string>
+    <string name="okc">Our Knowledge Centre</string>
+    <string name="title_activity_our_faculty">OurFaculty</string>
+    <string name="our_faculty">Our Faculty</string>
+    <string name="title_activity_home">Home</string>
+    <string name="about_us">About Us</string>
+    <string name="courses">Courses</string>
+    <string name="faculty">Faculty</string>
+    <string name="contact">Contact</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_contact_us">ContactUs</string>
+    <string name="title_activity_main_courses">MainCourses</string>
+    <string name="title_activity_courses_home">CoursesHome</string>
+    <string name="our_courses">Our Courses</string>
+    <string name="course_itlaw">IT Law</string>
+    <string name="course_cyberlaw">Cyber Law</string>
+    <string name="course_iprlaw">IPR Law</string>
+    <string name="course_cddp">CDDCP</string>
+    <string name="itLawHighlights">4 Modules + 1 Specialised Module = Certificate Program in IT Law</string>
+    <string name="itLawDuration">4 Sessions</string>
+    <string name="itLawMode">Classroom / Virtual</string>
+    <string name="itLawCertification">Completion of the sessions and presenting a study report</string>
+    <string name="itLawMaterial">In electronic form (e-book)</string>
+    <string name="itLawSyllabus">- Fundamentals of IT Laws \n\n- Cyber Laws in India \n\n- IPR in Cyber World \n\n- Cyber Security and Law \n\n- Cyber due diligence and compliance \n\n- Regulatory framework - national and international \n\n- E-Commerce, Cloud Computing, Mobile - Legal Aspects \n\n- 1 specialized paper</string>
+    <string name="itLawApplicability">It is a comprehensive course suitable for all professionals since it covers the different domains relating to Information Technology Laws.\n\nIT/ITES Professionals, Legal Professionals, Engineers, Doctors, CA or Company Secretaries, Management Executives, Students would find this course useful in their day to day activities both in their professional front.\n\nAll Netizens and Internet Enthusiasts could benefit from doing this course sice they gain awareness about the developments in the Cyber Society.</string>
+    <string name="title_activity_cyber_law_course">CyberLawCourse</string>
+    <string name="cyberLawHighlights">4 Modules + 1 Specialized Module = Certificate Course in Cyber Law</string>
+    <string name="cyberLawDuration">4 Sessions</string>
+    <string name="cyberLawMode">Classroom / Virtual</string>
+    <string name="cyberLawCertification">Completion of the sessions and presenting a study report</string>
+    <string name="cyberLawMaterial">In electronic form (e-book)</string>
+    <string name="cyberLawApplicability">It is a comprehensive course suitable for all professionals since it covers the different domains relating to Information Technology Laws.\n\nIT/ITES Professionals, Legal Professionals, Engineers, Doctors, CA or Company Secretaries, Management Executives, Students would find this course useful in their day to day activities both in their professional front.\n\nAll Netizens and Internet Enthusiasts could benefit from doing this course sice they gain awareness about the developments in the Cyber Society.</string>
+    <string name="cyberlawSyllabus">- Cyber Space and Cyber World\n\n- Cyber Laws in Cyberspace\n\n- Overview of IT act - Indian Cyber Law\n\n- Cyber risks, offences and penalties\n\n- Cyber crimes and regulations\n\n- E-Contracts, Cyber contracts - Legal position\n\n- Intro to E-Commerce, IPR, Mobile Law and latest trends\n\n- Case study\n\n- 1 Specialized Paper</string>
+    <string name="title_activity_ipr_law_course">IprLawCourse</string>
+    <string name="iprLawHighlights">4 Modules + 1 Specialised Module = Certificate Course in IPR Law</string>
+    <string name="iprLawDuration">4 Sessions</string>
+    <string name="iprLawMode">Classroom / Virtual</string>
+    <string name="iprLawCertification">Completion of the sessions and presenting a study report</string>
+    <string name="iprLawMaterial">In electronic form (e-book)</string>
+    <string name="iprLawApplicability">It is a comprehensive course suitable for all professionals since it covers the different domains relating to Information Technology Laws.\n\nIT/ITES Professionals, Legal Professionals, Engineers, Doctors, CA or Company Secretaries, Management Executives, Students would find this course useful in their day to day activities both in their professional front.\n\nAll Netizens and Internet Enthusiasts could benefit from doing this course sice they gain awareness about the developments in the Cyber Society.</string>
+    <string name="iprLawSyllabus">- IPR basics, types of IPR\n\n- IPR in Vyber space\n\n- Domain name and related issues\n\n- Copyright and Information Technology\n\n- Patents in digital world\n\n- Trademarks\n\n- IPR Assignment, Infringement, Licensing and Legal Remedies\n\n- Case Study\n\n- 1 Specialised Paper</string>
+    <string name="title_activity_cddcp">CDDCPActivity</string>
+    <string name="cddcpHighlights">4 Modules + 1 Specialised Module = Certificate Course in Cyber Due Diligence and Compliance</string>
+	<string name="cddcpDuration">4 Sessions</string>
+    <string name="cddcpMode">Classroom / Virtual</string>
+    <string name="cddcpCertification">Completion of the sessions and presenting a study report</string>
+    <string name="cddcpMaterial">In electronic form (e-book)</string>
+    <string name="cddcpApplicability">It is a comprehensive course suitable for all professionals since it covers the different domains relating to Information Technology Laws.\n\nIT/ITES Professionals, Legal Professionals, Engineers, Doctors, CA or Company Secretaries, Management Executives, Students would find this course useful in their day to day activities both in their professional front.\n\nAll Netizens and Internet Enthusiasts could benefit from doing this course sice they gain awareness about the developments in the Cyber Society.</string>
+	<string name="cddcpSyllabus">-Provisions of IT Act\n\n- Concept of due diligence\n\n- Cyber Crimes analysis\n\n- Liabilities, penalities for non-compliance\n\n- Cyber risks and security management\n\n- ISMS : Information Security Management\n\n- Cyber Law Compliance Framework\n\n- IT Security Policies, Guidelines\n\n- Case Study\n\n- 1 Specialised Paper</string>
+</resources>

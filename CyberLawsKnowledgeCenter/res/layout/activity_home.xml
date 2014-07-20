@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/White"
+     >
+    
+    <LinearLayout
+        android:id="@+id/mLlayoutBottomButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1.0"
+        android:orientation="horizontal" >
+       
+        <Button
+        android:id="@+id/aboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        
+        android:layout_weight=".25"
+        android:background="#33B5E5"
+        android:text="@string/about_us" 
+        android:textColor="@color/Black" />
+
+    <Button
+        android:id="@+id/courses"
+        android:layout_width="wrap_content"
+        android:layout_weight=".25"
+        android:layout_height="wrap_content"
+        
+        android:layout_toRightOf="@+id/button1"
+        android:background="#99CC00"
+        android:text="@string/courses"
+        android:textColor="@color/Black" />
+
+    <Button
+        android:id="@+id/faculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+        
+        android:layout_toRightOf="@+id/button2"
+        android:background="#FFBB33"
+        android:text="@string/faculty"
+        android:textColor="@color/Black" />
+
+    <Button
+        android:id="@+id/contactUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+       
+        android:layout_toRightOf="@+id/button3"
+        android:background="#FF4444"
+        android:text="@string/contact"
+        android:textColor="@color/Black" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:textColor="@color/IndianRed"
+        android:textSize="18dp"
+        android:text="CYBER LAWS KNOWLEDGE CENTRE"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:src="@drawable/clkclogo" />
+
+</RelativeLayout>

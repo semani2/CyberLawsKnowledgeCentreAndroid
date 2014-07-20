@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   
+    tools:context=".OurFaculty" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="#FFBB33"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_previous_item" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/our_faculty"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="100dp"
+         android:layout_height="100dp"
+         android:layout_below="@+id/linearLayout1"
+         android:src="@drawable/imageedit_4_2739290226" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignTop="@+id/imageView1"
+         android:layout_marginTop="22dp"
+         android:layout_toRightOf="@+id/imageView1"
+         android:text="Mr.S.Sai Sushanth" 
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/textView2"
+         android:layout_marginTop="14dp"
+         android:layout_toRightOf="@+id/imageView1"
+         android:text="Head Faculty"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/textView5"
+         android:layout_below="@+id/imageView1"
+         android:layout_marginTop="28dp"
+         android:text="Areas of specialization :"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/textView5"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/textView4"
+         android:layout_centerHorizontal="true"
+         android:text="-CYBER LAW\n-IPR\n-CYBER FORENSICS\n-IT SECURITY\n-DIGITAL EVIDENCE ANALYSIS\n-CYBER CRIME INVESTIGATION and ANALYSIS\n-CYBER LAW COMPLIANCE AUDITOR"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

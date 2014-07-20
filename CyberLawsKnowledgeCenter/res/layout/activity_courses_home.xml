@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/White"
+     >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="#99CC00"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_previous_item" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/our_courses"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/itLawButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/clkclogo" />
+
+    <ImageButton
+        android:id="@+id/cyberLawButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/itLawButton"
+        android:layout_marginRight="58dp"
+        android:src="@drawable/clkclogo" />
+
+    <ImageButton
+        android:id="@+id/iprLawButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/itLawButton"
+        android:layout_below="@+id/itLawButton"
+        android:layout_marginTop="107dp"
+        android:src="@drawable/clkclogo" />
+
+    <TextView
+        android:id="@+id/itLawText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/itLawButton"
+        android:layout_below="@+id/itLawButton"
+        android:layout_marginTop="15dp"
+        android:text="@string/course_itlaw"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageButton
+        android:id="@+id/cddpLawButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/cyberLawButton"
+        android:layout_alignTop="@+id/iprLawButton"
+        android:src="@drawable/clkclogo" />
+
+    <TextView
+        android:id="@+id/cddpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cddpLawButton"
+        android:layout_below="@+id/cddpLawButton"
+        android:layout_marginTop="26dp"
+        android:text="@string/course_cddp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/cyberLawText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/itLawText"
+        android:layout_alignBottom="@+id/itLawText"
+        android:layout_alignRight="@+id/cddpText"
+        android:text="@string/course_cyberlaw"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/iprLawText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cddpText"
+        android:layout_alignBottom="@+id/cddpText"
+        android:layout_alignRight="@+id/itLawText"
+        android:text="@string/course_iprlaw"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+</RelativeLayout>
